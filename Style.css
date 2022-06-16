@@ -124,7 +124,7 @@ img{
 .section__description--para{
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 24px;
+   margin-bottom: 24px;
 }
 
 
@@ -137,6 +137,13 @@ Disscord
 
 #discord{
     background-color: #c3f3ff;
+
+}
+.section__description--paraa{
+    
+    font-size: large;
+    margin: 24px;
+    padding-bottom: 24px; ;
 }
 
 /* 
@@ -191,6 +198,7 @@ footer
 
 */
 .footer{
+    padding-top: 24px 0 24px 0;
     background-color: #aaf5ff;
     display: flex;
     flex-direction: column;
@@ -211,3 +219,65 @@ footer
     font-family: 'Times New Roman', Times, serif;
     
 }
+
+/* Small phones, Tablets,Large Spartphones. */
+
+@media (max-width:720px){
+
+
+    ul{
+        display: none;
+    }
+    .row{
+        flex-direction: column;
+    
+}
+.home__discription{
+    margin-bottom:24px ;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.section__description--para{
+    margin: 0auto;
+}
+
+
+.subheader{
+    text-align: center;
+    font-size: 28px;
+}
+.section__diss{
+    flex-direction: column;
+    font-size: 60px;
+    display: flex;
+    
+}    
+#discord .section__diss{
+flex-direction: column-reverse;
+}
+.about__img--wrapper{
+    width: 100%;
+}
+
+
+.discord-img{
+    width: 100%;
+    padding-bottom: 30px; ;
+}
+.footer__logo{
+    max-width: 300px;
+}
+.footer__link{
+    padding: 0 4px;
+    font-size: 20px;
+}
+.footer__links{
+margin-bottom: 10px;
+}
+.par{
+    font-size: 20px;
+}
+
+}
+
